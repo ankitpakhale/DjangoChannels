@@ -7,4 +7,5 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'gs1.settings')
 application = ProtocolTypeRouter({
     'http': get_asgi_application(),
     
+    
 })
